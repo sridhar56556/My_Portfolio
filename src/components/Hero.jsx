@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden">
       {/* Cover Image */}
       <div className="absolute inset-0 -z-20">
-        <img src="/bg.jpeg" alt="Cover background" className="w-full h-full object-cover" />
+        <img src={`${import.meta.env.BASE_URL}bg.jpeg`} alt="Cover background" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/40 to-slate-900"></div>
       </div>
 
@@ -79,7 +79,7 @@ const Hero = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full p-2 glass relative">
               <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/10 relative">
                 <img 
-                  src="/profile.jpeg" 
+                  src={`${import.meta.env.BASE_URL}profile.jpeg`} 
                   alt="Konda Sridhar profile" 
                   className="w-full h-full object-cover"
                   onError={(e) => {

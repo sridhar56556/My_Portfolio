@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass py-3' : 'bg-black/40 backdrop-blur-sm py-5 border-b border-white/10'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
@@ -39,7 +39,11 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-white hover:text-cyan-400 hover:bg-black/30 px-3 py-2 rounded-md text-sm font-semibold drop-shadow-md transition-all duration-200"
+                  className={`px-3 py-2 rounded-md text-sm font-bold transition-all duration-200 ${
+                    scrolled 
+                      ? 'text-white hover:text-cyan-400 hover:bg-white/10 drop-shadow-md' 
+                      : 'text-slate-900 hover:text-cyan-700 hover:bg-black/5'
+                  }`}
                 >
                   {link.name}
                 </a>

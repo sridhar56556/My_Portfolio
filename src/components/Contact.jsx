@@ -66,12 +66,21 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="glass-card p-8"
           >
-            <form className="space-y-6">
+            <form action="https://formsubmit.co/sridharkonda553@gmail.com" method="POST" className="space-y-6">
+              {/* FormSubmit Honeypot to prevent spam */}
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+              {/* FormSubmit Disable Captcha (Optional, for better UX) */}
+              <input type="hidden" name="_captcha" value="false" />
+              {/* FormSubmit Success Redirect (Optional) */}
+              {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" /> */}
+              
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Your Name</label>
                 <input 
+                  name="name"
                   type="text" 
                   id="name" 
+                  required
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-transparent transition-all"
                   placeholder="John Doe"
                 />
@@ -79,8 +88,10 @@ const Contact = () => {
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Your Email</label>
                 <input 
+                  name="email"
                   type="email" 
                   id="email" 
+                  required
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-transparent transition-all"
                   placeholder="john@example.com"
                 />
@@ -88,14 +99,16 @@ const Contact = () => {
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
                 <textarea 
+                  name="message"
                   id="message" 
                   rows={4}
+                  required
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-transparent transition-all resize-none"
                   placeholder="Hello Sridhar, I'd like to talk about..."
                 />
               </div>
               <button 
-                type="button" 
+                type="submit" 
                 className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-medium py-3 rounded-lg transition-all shadow-[0_0_15px_rgba(6,182,212,0.3)] hover:shadow-[0_0_20px_rgba(6,182,212,0.5)]"
               >
                 Send Message <Send size={18} />

@@ -24,14 +24,18 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="flex-1 text-center md:text-left"
           >
-            <h2 className="text-xl md:text-2xl text-cyan-400 font-medium mb-2">Hello, I'm</h2>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
+            <div className="inline-block md:block mb-4">
+              <span className="text-sm md:text-2xl text-white md:text-cyan-400 bg-cyan-600 md:bg-transparent px-3 py-1 md:p-0 rounded-full font-medium drop-shadow-md">
+                Hello, I'm
+              </span>
+            </div>
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
               Konda Sridhar
             </h1>
-            <h3 className="text-2xl md:text-3xl text-gray-300 font-semibold mb-6">
+            <h3 className="text-2xl md:text-3xl text-white md:text-gray-300 font-semibold mb-6 drop-shadow-md">
               Backend Developer / Full Stack Developer
             </h3>
-            <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0">
+            <p className="text-white md:text-gray-400 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0 drop-shadow-lg">
               A Computer Science graduate with hands-on experience building Java backend systems, 
               MySQL databases, and responsive web applications. Passionate about innovation and delivering quality digital solutions.
             </p>

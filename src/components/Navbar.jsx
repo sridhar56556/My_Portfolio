@@ -42,7 +42,7 @@ const Navbar = () => {
                   className={`px-3 py-2 rounded-md text-sm font-bold transition-all duration-200 ${
                     scrolled 
                       ? 'text-white hover:text-cyan-400 hover:bg-white/10 drop-shadow-md' 
-                      : 'text-slate-900 hover:text-cyan-700 hover:bg-black/5'
+                      : 'text-white hover:text-cyan-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]'
                   }`}
                 >
                   {link.name}

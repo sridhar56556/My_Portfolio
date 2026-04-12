@@ -1,16 +1,32 @@
-# React + Vite
+# 🌐 Konda Sridhar - Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! I am a Computer Science graduate and passionate Full Stack Developer specializing in building robust, high-performance web applications with modern technologies.
 
-Currently, two official plugins are available:
+🚀 **Live Portfolio:** [https://sridhar56556.github.io/My_Portfolio/](https://sridhar56556.github.io/My_Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS, Framer Motion
+- **Backend:** Node.js, Express, Java (J2EE), Java Servlets
+- **Database:** MySQL, JDBC
+- **Tools:** Git, GitHub Pages, Render, EmailJS
 
-## React Compiler
+## 📂 Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏦 Secure Banking System (NeoBank)
+A modern banking simulation with secure OTP authentication, real-time balance management, and an instant loan approval feature.
+- **Link:** [Live Demo](https://secure-banking-system-nyv5.onrender.com/) | [GitHub](https://github.com/sridhar56556/Secure-banking-system)
 
-## Expanding the ESLint configuration
+### 🎫 Online Ticket Booking System
+A comprehensive booking platform for bus, train, flight, and ship services with a real-time fare breakdown dashboard.
+- **Link:** [Live Demo](https://sridhar56556.github.io/ticket-booking-system/) | [GitHub](https://github.com/sridhar56556/ticket-booking-system)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Encrypted Deduplication System
+A Java-based system designed to eliminate redundant data storage while ensuring high security through encryption.
+- **GitHub:** [https://github.com/sridhar56556](https://github.com/sridhar56556)
+
+## 📫 Connect with Me
+- **GitHub:** [@sridhar56556](https://github.com/sridhar56556)
+- **Email:** [Contact via Portfolio](https://sridhar56556.github.io/My_Portfolio/#contact)
+
+---
+*Built with ❤️ using React, Vite, and Tailwind CSS.*

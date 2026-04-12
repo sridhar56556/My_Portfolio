@@ -80,7 +80,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex-1 flex justify-center"
           >
-            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full p-2 glass relative">
+            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full p-2 glass">
               <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/10 relative">
                 <img 
                   src={`${import.meta.env.BASE_URL}profile.jpeg`} 

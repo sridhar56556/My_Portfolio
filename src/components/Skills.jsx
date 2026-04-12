@@ -5,7 +5,7 @@ import { Code2, Server, Wrench } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend Developers',
+      title: 'Frontend Development',
       icon: <Code2 className="text-pink-400" size={28} />,
       skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS'],
       color: 'from-pink-500 to-rose-500'

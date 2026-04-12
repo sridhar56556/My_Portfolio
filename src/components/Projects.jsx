@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "Online Ticket Booking System",
       description: "Developed a responsive web application for booking tickets across bus, train, flight, and ship. Created an interactive dashboard displaying bookings, travel history, and total cost with an intuitive real-time fare breakdown.",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JavaScript", "React", "MySQL", "SQL", "Java", "JDBC"],
       github: "https://github.com/sridhar56556/ticket-booking-system",
       live: "https://sridhar56556.github.io/ticket-booking-system/",
       color: "from-cyan-500 to-blue-500"

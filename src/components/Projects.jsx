@@ -37,6 +37,22 @@ const Projects = () => {
       live: null,
       color: "from-blue-600 to-indigo-500"
     },
+    {
+      title: "Encrypted Deduplication System",
+      description: "Designed a Java-based system to eliminate redundant data storage using advanced encryption and duplicate checking algorithms. Built with MySQL metadata management and secure file handling protocols.",
+      technologies: ["Java", "JDBC", "MySQL", "Servlets", "JSP", "Cryptography"],
+      github: "https://github.com/sridhar56556",
+      live: null,
+      color: "from-emerald-500 to-teal-400"
+    },
+    {
+      title: "TicTacBattle",
+      description: "A modernized version of the classic Tic-Tac-Toe game featuring advanced win-detection logic, improved UI responsiveness, and a competitive scoring system for local multiplayer.",
+      technologies: ["JavaScript", "React", "Framer Motion", "Tailwind CSS"],
+      github: "https://github.com/sridhar56556/TicTacBattle",
+      live: null,
+      color: "from-pink-500 to-rose-500"
+    },
   ];
 
   return (

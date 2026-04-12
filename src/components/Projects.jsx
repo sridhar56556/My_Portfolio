@@ -14,19 +14,11 @@ const Projects = () => {
       color: "from-emerald-600 to-cyan-600"
     },
     {
-      title: "Premium Travel Application",
-      description: "A high-end travel booking platform featuring real-time seat selection, regional route search, and secure payment integration. Designed with smooth Framer Motion animations and a premium UI for flight, bus, and train bookings.",
-      technologies: ["React", "Framer Motion", "Tailwind CSS", "JavaScript", "React Icons"],
-      github: "https://github.com/sridhar56556/ticket-booking-system",
-      live: "https://sridhar56556.github.io/ticket-booking-system/",
-      color: "from-purple-600 to-indigo-600"
-    },
-    {
       title: "Online Ticket Booking System",
       description: "Developed a responsive web application for booking tickets across bus, train, flight, and ship using React, Java, and MySQL. Created an interactive dashboard displaying bookings, travel history, and total cost with an intuitive real-time fare breakdown.",
       technologies: ["React", "Java", "JDBC", "MySQL", "SQL", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/sridhar56556/Online-Ticket-Booking-System",
-      live: "https://sridhar56556.github.io/Online-Ticket-Booking-System/",
+      github: "https://github.com/sridhar56556/ticket-booking-system",
+      live: "https://sridhar56556.github.io/ticket-booking-system/",
       color: "from-cyan-500 to-blue-500"
     },
     {

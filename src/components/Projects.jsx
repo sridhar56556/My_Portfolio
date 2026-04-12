@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Secure Banking System (NeoBank)",
       description: "A sophisticated modern banking platform featuring real-time transaction processing, secure OTP authentication via EmailJS, and an instant loan approval system. Built with a focus on premium UI/UX and robust security protocols.",
-      technologies: ["React", "Node.js", "Express", "Tailwind CSS", "EmailJS", "Framer Motion"],
+      technologies: ["React", "Java", "JDBC", "MySQL", "SQL", "Node.js", "Express", "Tailwind CSS", "EmailJS"],
       github: "https://github.com/sridhar56556/Secure-banking-system",
       live: "https://secure-banking-system-nyv5.onrender.com/",
       color: "from-emerald-600 to-cyan-600"
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       title: "Online Banking",
       description: "A comprehensive online banking platform designed to enable users to manage accounts, perform secure transactions, and seamlessly view transaction history with a focus on robust security.",
-      technologies: ["Java", "SQL", "Web Technologies"],
+      technologies: ["React", "Java", "JDBC", "MySQL", "SQL", "Web Technologies"],
       github: "https://github.com/sridhar56556/Online-Banking",
       live: null,
       color: "from-blue-600 to-indigo-500"

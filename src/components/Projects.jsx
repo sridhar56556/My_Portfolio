@@ -63,7 +63,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white inline-block relative">
-            Featured Projects
+            My Projects
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-emerald-500 rounded-full"></div>
           </h2>
         </div>

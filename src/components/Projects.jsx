@@ -14,19 +14,19 @@ const Projects = () => {
       color: "from-emerald-600 to-cyan-600"
     },
     {
-      title: "Encrypted Deduplication System",
-      description: "Designed a Java-based encrypted deduplication system to eliminate redundant data storage. Developed backend logic using Java Servlets for file upload, encryption, and duplicate checking, and built MySQL metadata tables.",
-      technologies: ["Java (J2EE)", "JDBC", "JSP", "Servlets", "MySQL", "Apache Tomcat"],
-      github: "https://github.com/sridhar56556",
-      live: null,
+      title: "Premium Travel Application",
+      description: "A high-end travel booking platform featuring real-time seat selection, regional route search, and secure payment integration. Designed with smooth Framer Motion animations and a premium UI for flight, bus, and train bookings.",
+      technologies: ["React", "Framer Motion", "Tailwind CSS", "JavaScript", "React Icons"],
+      github: "https://github.com/sridhar56556/ticket-booking-system",
+      live: "https://sridhar56556.github.io/ticket-booking-system/",
       color: "from-purple-600 to-indigo-600"
     },
     {
       title: "Online Ticket Booking System",
-      description: "Developed a responsive web application for booking tickets across bus, train, flight, and ship using React, Java, and MySQL. Created an interactive dashboard displaying bookings, travel history, and total cost with an intuitive real-time fare breakdown and JDBC-based data management.",
+      description: "Developed a responsive web application for booking tickets across bus, train, flight, and ship using React, Java, and MySQL. Created an interactive dashboard displaying bookings, travel history, and total cost with an intuitive real-time fare breakdown.",
       technologies: ["React", "Java", "JDBC", "MySQL", "SQL", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/sridhar56556/ticket-booking-system",
-      live: "https://sridhar56556.github.io/ticket-booking-system/",
+      github: "https://github.com/sridhar56556/Online-Ticket-Booking-System",
+      live: "https://sridhar56556.github.io/Online-Ticket-Booking-System/",
       color: "from-cyan-500 to-blue-500"
     },
     {
@@ -37,14 +37,6 @@ const Projects = () => {
       live: null,
       color: "from-blue-600 to-indigo-500"
     },
-    {
-      title: "TicTacToe Game",
-      description: "An interactive and classic Tic-Tac-Toe game featuring a clean user interface. Implemented core game logic including win/draw detection and player turn management.",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/sridhar56556/TicTacToe-Game",
-      live: null,
-      color: "from-emerald-500 to-teal-400"
-    }
   ];
 
   return (

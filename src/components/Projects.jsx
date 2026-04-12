@@ -6,6 +6,14 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      title: "Secure Banking System (NeoBank)",
+      description: "A sophisticated modern banking platform featuring real-time transaction processing, secure OTP authentication via EmailJS, and an instant loan approval system. Built with a focus on premium UI/UX and robust security protocols.",
+      technologies: ["React", "Node.js", "Express", "Tailwind CSS", "EmailJS", "Framer Motion"],
+      github: "https://github.com/sridhar56556/Secure-banking-system",
+      live: "https://secure-banking-system-nyv5.onrender.com/",
+      color: "from-emerald-600 to-cyan-600"
+    },
+    {
       title: "Encrypted Deduplication System",
       description: "Designed a Java-based encrypted deduplication system to eliminate redundant data storage. Developed backend logic using Java Servlets for file upload, encryption, and duplicate checking, and built MySQL metadata tables.",
       technologies: ["Java (J2EE)", "JDBC", "JSP", "Servlets", "MySQL", "Apache Tomcat"],
@@ -17,8 +25,8 @@ const Projects = () => {
       title: "Online Ticket Booking System",
       description: "Developed a responsive web application for booking tickets across bus, train, flight, and ship. Created an interactive dashboard displaying bookings, travel history, and total cost with an intuitive real-time fare breakdown.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/sridhar56556/ticket-booking",
-      live: "https://sridhar56556.github.io/ticket-booking/",
+      github: "https://github.com/sridhar56556/ticket-booking-system",
+      live: "https://sridhar56556.github.io/ticket-booking-system/",
       color: "from-cyan-500 to-blue-500"
     },
     {

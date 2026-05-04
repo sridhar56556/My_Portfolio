@@ -6,6 +6,14 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      title: "AI Support Assistant",
+      description: "A premium full-stack AI assistant featuring a glassmorphic interface and action-first logic. Built with Spring Boot and React, it integrates OpenRouter for intelligent responses and Stanford CoreNLP for sentiment analysis, with persistent MySQL storage.",
+      technologies: ["React", "Spring Boot", "MySQL", "OpenRouter", "CoreNLP", "Tailwind CSS", "Framer Motion"],
+      github: "https://github.com/sridhar56556/Ai-chart_bot",
+      live: "https://ai-chart-bot-2y0b.onrender.com/",
+      color: "from-violet-600 to-indigo-600"
+    },
+    {
       title: "Secure Banking System (NeoBank)",
       description: "A sophisticated modern banking platform featuring real-time transaction processing, secure OTP authentication via EmailJS, and an instant loan approval system. Built with a focus on premium UI/UX and robust security protocols.",
       technologies: ["React", "Java", "JDBC", "MySQL", "SQL", "Node.js", "Express", "Tailwind CSS", "EmailJS"],

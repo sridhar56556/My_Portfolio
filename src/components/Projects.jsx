@@ -6,6 +6,14 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      title: "Voice AI Agent (Project Genesis)",
+      description: "A premium, high-speed voice-activated AI assistant featuring a futuristic neon-glowing interface. It leverages the Gemini API for natural language processing and integrates the Web Speech API for seamless voice interaction, with instant redirection to Google Search.",
+      technologies: ["React", "Vite", "Firebase", "Gemini API", "Tailwind CSS", "Framer Motion", "Web Speech API"],
+      github: "https://github.com/sridhar56556/Voice-Chat-Ai-Agent",
+      live: "https://ai-voice-support-bot.web.app/assistant",
+      color: "from-fuchsia-600 to-cyan-500"
+    },
+    {
       title: "AI Support Assistant",
       description: "A premium full-stack AI assistant featuring a glassmorphic interface and action-first logic. Built with Spring Boot and React, it integrates OpenRouter for intelligent responses and Stanford CoreNLP for sentiment analysis, with persistent MySQL storage.",
       technologies: ["React", "Spring Boot", "MySQL", "OpenRouter", "CoreNLP", "Tailwind CSS", "Framer Motion"],

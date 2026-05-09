@@ -7,19 +7,19 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       icon: <Code2 className="text-pink-400" size={28} />,
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS'],
+      skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
       color: 'from-pink-500 to-rose-500'
     },
     {
       title: 'Backend & Databases',
       icon: <Server className="text-blue-400" size={28} />,
-      skills: ['Java (J2EE)', 'SQL', 'MySQL', 'Servlets', 'JSP', 'Apache Tomcat'],
+      skills: ['Java (J2EE)', 'Spring Boot', 'SQL', 'MySQL', 'Firebase', 'OpenRouter API', 'Gemini API'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       title: 'Tools & Others',
       icon: <Wrench className="text-amber-400" size={28} />,
-      skills: ['Git', 'GitHub', 'Power BI', 'MS Excel', 'VS Code', 'OOP', 'Data Structures', 'Debugging'],
+      skills: ['Git', 'GitHub', 'Vercel', 'Render', 'VS Code', 'OOP', 'Data Structures', 'Debugging'],
       color: 'from-amber-400 to-orange-500'
     }
   ];
